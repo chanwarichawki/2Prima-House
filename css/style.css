@@ -233,3 +233,13 @@ header ul li a:hover {
 .contact-form button:hover{
   background: #900C3F;
 }
+
+footer{
+  background: #444;
+  padding: 5rem 1rem;
+  color: white;
+  text-align: center;
+}
+footer p{
+  margin-bottom: 0;
+}
