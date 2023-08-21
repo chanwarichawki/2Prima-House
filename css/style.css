@@ -195,3 +195,41 @@ header ul li a:hover {
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
+
+/*contact*/
+.contact{
+ padding: 10rem 1rem;
+ display: flex;
+ flex-direction: column;  
+ align-items: center;
+}
+.contact-form{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-form input{
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 1rem;
+  font-size: 1.3rem;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+.contact-form button{
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #b8b123;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.contact-form button:hover{
+  background: #900C3F;
+}
